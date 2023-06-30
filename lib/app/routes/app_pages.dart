@@ -14,8 +14,6 @@ import '../modules/splash/bindings/splash_binding.dart';
 import '../modules/splash/views/splash_view.dart';
 import '../modules/tv/bindings/tv_binding.dart';
 import '../modules/tv/views/tv_view.dart';
-import '../modules/watch_list/bindings/watch_list_binding.dart';
-import '../modules/watch_list/views/watch_list_view.dart';
 
 part 'app_routes.dart';
 
@@ -54,11 +52,6 @@ class AppPages {
       name: _Paths.LIST_ITEM,
       page: () => const ListItemView(),
       binding: ListItemBinding(),
-    ),
-    GetPage(
-      name: _Paths.WATCH_LIST,
-      page: () => const WatchListView(),
-      binding: WatchListBinding(),
     ),
     GetPage(
       name: _Paths.NAVIGATOR,

@@ -9,7 +9,6 @@ abstract class Routes {
   static const TV = _Paths.TV;
   static const POPULAR = _Paths.POPULAR;
   static const LIST_ITEM = _Paths.LIST_ITEM;
-  static const WATCH_LIST = _Paths.WATCH_LIST;
   static const NAVIGATOR = _Paths.NAVIGATOR;
 }
 
@@ -21,6 +20,5 @@ abstract class _Paths {
   static const TV = '/tv';
   static const POPULAR = '/popular';
   static const LIST_ITEM = '/list-item';
-  static const WATCH_LIST = '/watch-list';
   static const NAVIGATOR = '/navigator';
 }
